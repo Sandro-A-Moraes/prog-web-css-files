@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+:root{
+    --verde-fundo: rgba(128, 255, 0, 0.486);
+    --verde-texto:rgba(128, 255, 0, 0.801);
+    --roxo-fundo: rgba(75, 32, 233, 0.877);
+}
+
+#div-roxo{
+    background-color: var(--roxo-fundo);
+    height: 100vh;
+    width: 60%;
+    float: left;
+}
+
+#div-verde{
+    background-color: var(--verde-fundo);
+    height: 100vh;
+    width: 40%;
+    float: right;
+}
+
+#logo{
+    color: var(--verde-texto);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#imagem-sandro{
+    width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    top: 32%;
+    right: 30%;
+
+}
+
+#caixa-conteudo{
+    border: 3px solid rgb(232, 235, 62);
+    position: absolute;
+    top: ;
+    width: 500px;
+    height: 500px;
+}
+
+#titulo{
+    color: var(--verde-texto);
+}
